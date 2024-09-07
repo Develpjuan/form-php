@@ -4,7 +4,7 @@ include("conexion.php");
 
 $usu = $_POST["usuario"];
 $pass = $_POST["password"];
-$ro = $_POST["rol"];
+$rol = $_POST["rol"];
 
 
 $queryusuario = mysqli_query($conex, "SELECT * FROM login WHERE usuario = '$usu' AND password = '$pass' AND rol = '$rol'");
