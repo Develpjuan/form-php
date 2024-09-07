@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Administrador</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
     <script scr="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
     <script defer src="index.js"></script>
 </head>
@@ -36,7 +36,7 @@
     </main>
     <table>
         <th colspan="2">Bienvenido administrador</th>
-        <th><a href="#index.html">Regresar</a></th>
+        <th><a href="index.html">Regresar</a></th>
         <tr>
             <th>Usuario</th>
             <th>Contraseña</th>
